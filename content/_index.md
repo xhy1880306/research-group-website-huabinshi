@@ -8,8 +8,6 @@ sections:
   - block: hero
     content:
       title: |
-        title: |
-        [Research Group Name]
         [Research Group Name]
       image:
         filename: welcome.jpg
