@@ -1,18 +1,26 @@
 ---
 title: People
-date: 2026-01-01
+date: 2022-10-24
+
 type: landing
 
 sections:
-  - block: markdown
+  - block: people
     content:
-      title: People
-      subtitle: Meet our team
-      text: |
-        Team member information will be added here.
-
-        This page will include the principal investigator,
-        faculty members, researchers, students, and alumni.
+      title: Meet the Team
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Principal Investigators
+          - Researchers
+          - Grad Students
+          - Administration
+          - Visitors
+          - Alumni
+      sort_by: Params.last_name
+      sort_ascending: true
     design:
-      columns: '1'
+      show_interests: false
+      show_role: true
+      show_social: true
 ---
