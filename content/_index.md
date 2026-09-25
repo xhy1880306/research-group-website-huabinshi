@@ -8,14 +8,15 @@ sections:
   - block: hero
     content:
       title: |
-        [课题组中文名称]
+        title: |
+        [Research Group Name]
         [Research Group Name]
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        [课题组简介待补充]
+        [Research group introduction to be added]
   
   - block: collection
     content:
